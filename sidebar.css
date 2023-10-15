@@ -1,0 +1,33 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 53px;
+    width: 72px;
+    z-index: 300;
+    background-color: white;
+ 
+}
+
+.sidelogo{
+   height: 74px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 11px;
+   font-family: Roboto,Arial;
+   cursor: pointer;
+   padding-top: 5px;
+  
+
+}
+.sidelogo:hover{
+    background-color: rgb(235, 231, 231);
+}
+
+.sidelogo img{
+   
+    height: 24px;
+    margin-bottom: 4px;
+}
