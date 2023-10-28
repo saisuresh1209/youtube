@@ -3,11 +3,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+} 
+@media  (max-width : 800px) {
+    .grid-type{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+    }
 }
 
-@media (max-width : 750px) {
+@media (max-width : 750px)  {
    .grid-type{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
    }
  
 }

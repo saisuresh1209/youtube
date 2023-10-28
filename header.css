@@ -29,8 +29,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    /* display: none; */
+    overflow-x: auto;
 }
+
+.header1::-webkit-scrollbar{
+    width: auto;
+}
+
+
+
 
 .tag.active{ 
    background-color: black;
@@ -44,6 +51,8 @@
         border-radius: 5px;
         cursor: pointer;
 }
+
+
 
  .tag1{
    
@@ -134,7 +143,7 @@ align-items: center;
     border-radius: 2px;
     box-shadow:inset 1px 2px 3px rgba(0,  0, 0, 0.05);
     font-size: 16px   ;
-    width: 0;
+    width: auto;
     border-bottom-left-radius: 80px;
     border-top-left-radius: 80px;
 }
@@ -361,5 +370,22 @@ align-items: center;
     width: 30px;
     border-radius: 80px;
     object-fit: cover;
+}
+
+@media screen and (max-width:450px) {
+    .header1{
+        left: -10px;
+        padding-left: 20px;
+        position: fixed; 
+        height: auto;
+        overflow-y: hidden;
+    }
+    .middle-section{
+        display: none;
+    }
+    .account-pic{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 

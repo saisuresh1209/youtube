@@ -9,6 +9,8 @@
  
 }
 
+
+
 .sidelogo{
    height: 74px;
    display: flex;
@@ -30,4 +32,25 @@
    
     height: 24px;
     margin-bottom: 4px;
+}
+
+@media (max-width: 750px) {
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        bottom: 0;
+        width: auto;
+        right: 0;
+        left: 0;
+        top: 600px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 11px;
+        font-family: Roboto,Arial;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 70px;
+    }
+ 
 }

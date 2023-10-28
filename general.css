@@ -5,6 +5,14 @@ body{
     padding-left: 100px;
     padding-right: 24px;
     background-color: rgb(251, 251, 251);
+    overflow-x: hidden;
+}
+
+@media  (max-width:750px) {
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 p{
     
