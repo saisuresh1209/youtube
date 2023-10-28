@@ -1,8 +1,7 @@
 .sidebar{
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    top: 53px;
+    left: 0;
+    top: 54px;
     width: 72px;
     z-index: 300;
     background-color: white;
@@ -36,13 +35,11 @@
 
 @media (max-width: 750px) {
     .sidebar{
+
         display: flex;
         flex-direction: row;
-        bottom: 0;
         width: auto;
         right: 0;
-        left: 0;
-        top: 700px;
         justify-content: space-between;
         align-items: center;
         font-size: 11px;
@@ -51,6 +48,8 @@
         margin-left: 10px;
         margin-right: 10px;
         height: 70px;
+        bottom: 0;
+        top: auto;
     }
  
 }
