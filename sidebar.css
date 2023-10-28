@@ -1,10 +1,11 @@
 .sidebar{
     position: fixed;
     left: 0;
+    top: 54px;
     width: 72px;
     z-index: 300;
     background-color: white;
-    margin-top: -54px;
+    
  
 }
 
@@ -50,7 +51,7 @@
         height: 70px;
         bottom: 0;
         left: 0;
-        margin-top: 0;
+        top: auto;
     }
  
 }
